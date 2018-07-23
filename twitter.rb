@@ -2,12 +2,6 @@ require 'twitter'
 require 'yaml'
 require 'pry'
 
-# application.yml
-# ACCESS_TOKEN: 2911734821-De0YvYvGf1XeyBZ4BAcEDDMt17YhF62HaI8jZZZ
-# ACCESS_TOKEN_SECRET: zzzrkoJEkZnWtoP2DfHmodmJ2AXk3LMZrlBssKw028ZZZ
-# CONSUMER_KEY: 2911734821-De0YvYvGf1XeyBZ4BAcEDDMt17YhF62HaI8jZZZ
-# CONSUMER_SECRET: zzzrkoJEkZnWtoP2DfHmodmJ2AXk3LMZrlBssKw028ZZZ
-
 class TwitterApi
   attr_reader :client
 
